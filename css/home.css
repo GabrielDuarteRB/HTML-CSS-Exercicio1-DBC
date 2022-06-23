@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+header {
+    background-color: red;
+    padding: 25px 0;
+}
+
+.logo{
+    text-align: left;
+    margin: auto;
+}
+
+.logo a img {
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.logo small {
+    color: white;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    margin: auto 10px;
+}
+
+/* Corpo do site */
+
+.section-cards {
+    text-align: center;
+}
+
+.section-cards h1 {
+    margin-top: 20px;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.cards div {
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 30px;
+    padding: 25px 10px;
+}
+
+.cards p {
+    padding-top: 10px;
+}
+
+.main-text {
+    background-color: #666;
+}
+
+.main-text p {
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.map {
+    text-align: center;
+}
+
+.map h2 {
+    padding-top: 50px;
+}
+
+.map iframe {
+    padding: 30px;
+}
+
+/* Footer */
+
+footer{
+    background-color: red;
+    padding-top: 10px;
+}
+
+footer nav ul li {
+    margin: 20px 0;
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+footer address {
+    color: white;
+    padding: 10px 0;
+}
